@@ -5,28 +5,83 @@
   --text-black: #000;
 }
 
+div {
+  border: 1px solid red;
+}
+
+body {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: var(--text-black);
+  margin: 0;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  width: 228px;
+  height: 32px;
+  z-index: 1;
+}
+
+.header__logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  width: 730px;
+  margin-left: 64px;
+  z-index: 1;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  z-index: 1;
+}
+
+.header__link {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+.header__main-illustration {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 765px;
+  height: 608px;
+  object-fit: cover;
+}
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: var(--accent-blue);
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: -1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
