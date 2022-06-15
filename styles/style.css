@@ -3,9 +3,19 @@
   --background-off-white: #f2f2f2;
   --accent-blue: #2f80ed;
   --text-black: #000;
+  --normal-font-weight: 400;
+  --semi-bold-font-weight: 700;
 }
 
-div {
+div,
+h1,
+h2,
+h3,
+section,
+header,
+img,
+article,
+p {
   border: 1px solid red;
 }
 
@@ -21,6 +31,8 @@ body {
   color: var(--text-black);
   margin: 0 auto;
 }
+
+/* Header */
 
 .header {
   height: 100vh;
@@ -60,7 +72,7 @@ body {
   line-height: 25px;
   font-size: 18px;
   z-index: 1;
-  font-weight: 400;
+  font-weight: var(--normal-font-weight);
   margin: 0;
 }
 
@@ -87,6 +99,51 @@ body {
   top: 64px;
   z-index: -1;
 }
+
+/* Header end */
+
+/* Description */
+
+.description {
+  margin: 100px auto;
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  width: 175px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: var(--normal-font-weight);
+  color: var(--accent-blue);
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: var(--normal-font-weight);
+}
+
+.two-columns__paragraph_middle {
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  font-weight: var(--semi-bold-font-weight);
+}
+
+/* Description end */
 
 .table__cell_theme_dark {
   width: 200px;
