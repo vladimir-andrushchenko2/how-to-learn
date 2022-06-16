@@ -7,7 +7,7 @@
   --semi-bold-font-weight: 700;
 }
 
-div,
+/* div,
 h1,
 h2,
 h3,
@@ -17,7 +17,7 @@ img,
 article,
 p {
   border: 1px solid red;
-}
+} */
 
 body {
   margin: 0;
@@ -146,6 +146,16 @@ body {
 /* Description end */
 
 /* Section components */
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__cell {
+  list-style: none;
+}
+
 /* Section components end */
 
 .table__cell_theme_dark {
