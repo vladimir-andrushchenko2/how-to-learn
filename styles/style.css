@@ -42,12 +42,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: var(--background-off-white);
 }
 
 .logo {
   width: 228px;
   height: 32px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__logo_place_header {
@@ -61,7 +62,7 @@ body {
   line-height: 96px;
   font-size: 102px;
   margin: 0 0 0 64px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -71,7 +72,7 @@ body {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
-  z-index: 1;
+  z-index: 2;
   font-weight: var(--normal-font-weight);
   margin: 0;
 }
@@ -82,6 +83,7 @@ body {
 }
 
 .header__main-illustration {
+  z-index: 1;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -97,7 +99,7 @@ body {
   position: absolute;
   right: 0;
   top: 64px;
-  z-index: -1;
+  z-index: 0;
 }
 
 /* Header end */
