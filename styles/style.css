@@ -336,20 +336,24 @@ body {
   list-style: none;
   padding: 0;
   line-height: 30px;
+  margin: 0 auto 16px;
 }
 
 .footer__column-link {
   text-decoration: none;
   color: var(--off-white-color);
+  display: flex;
+  align-items: center;
 }
 
-.footer__column_heading {
-  margin-bottom: 20px;
+.footer__column-heading {
+  margin: 0 auto 20px;
 }
 
 .footer__social-icon {
-  /* height: 10px; */
-  margin-bottom: 10px;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
 }
 
 /* Footer end */
