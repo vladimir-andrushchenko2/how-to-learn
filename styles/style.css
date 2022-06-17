@@ -7,22 +7,6 @@
   --semi-bold-font-weight: 700;
 }
 
-div,
-h1,
-h2,
-h3,
-h4,
-section,
-header,
-img,
-article,
-p,
-a,
-ol,
-li {
-  border: 1px solid red;
-}
-
 body {
   margin: 0;
 }
