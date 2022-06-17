@@ -312,6 +312,7 @@ body {
   padding: 60px 0 40px;
   display: flex;
   box-sizing: border-box;
+  font-size: 18px;
 }
 
 .footer__columns {
@@ -330,6 +331,8 @@ body {
 
 .footer__author {
   margin: 18px 0;
+  line-height: 25px;
+  font-weight: var(--normal-font-weight);
 }
 
 .footer__column-links {
@@ -344,10 +347,14 @@ body {
   color: var(--off-white-color);
   display: flex;
   align-items: center;
+  line-height: 30px;
+  font-weight: var(--normal-font-weight);
 }
 
 .footer__column-heading {
   margin: 0 auto 20px;
+  line-height: 30px;
+  font-weight: var(--semi-bold-font-weight);
 }
 
 .footer__social-icon {
