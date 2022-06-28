@@ -1,0 +1,11 @@
+.kaufman {
+  padding: 90px 0;
+  background-color: var(--background-dark);
+  position: relative;
+  overflow: hidden;
+}
+
+/* everything inside kafman needs to be foreground for triangle */
+.kaufman * {
+  z-index: 1;
+}

@@ -1,0 +1,14 @@
+.two-columns__paragraph {
+  margin: 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: var(--normal-font-weight);
+}
+
+.two-columns__paragraph:nth-child(2) {
+  margin: 30px 0;
+}
+
+.two-columns__span-accent {
+  font-weight: var(--semi-bold-font-weight);
+}
