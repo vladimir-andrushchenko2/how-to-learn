@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --background-dark: #1f1f1f;
   --off-white-color: #f2f2f2;
   --accent-blue: #2f80ed;
@@ -18,9 +18,10 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: var(--text-black);
 }
+ */
 
 /* Header */
-
+/*
 .header {
   height: 100vh;
   min-height: 600px;
@@ -30,29 +31,29 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: var(--off-white-color);
-}
-
+} */
+/*
 .logo {
   width: 228px;
   height: 32px;
-}
+} */
 
-.logo_place_header {
+/* .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 2;
-}
+} */
 
-.header__title {
+/* .header__title {
   max-width: 730px;
   width: 100%;
   line-height: 96px;
   font-size: 102px;
   margin: 0 0 0 64px;
   z-index: 2;
-}
-
+} */
+/*
 .header__subtitle {
   position: absolute;
   bottom: 30px;
@@ -65,7 +66,7 @@ body {
   font-weight: var(--normal-font-weight);
   margin: 0;
 }
-
+ */
 .header__link {
   color: var(--accent-blue);
   text-decoration: none;
