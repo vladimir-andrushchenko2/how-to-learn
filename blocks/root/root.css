@@ -1,7 +1,9 @@
 .root {
   --background-dark: #1f1f1f;
   --off-white-color: #f2f2f2;
+  --off-white-color-transparent: #f2f2f290;
   --accent-blue: #2f80ed;
+  --accent-blue-transparent: #2f81ed90;
   --text-black: #000;
   --normal-font-weight: 400;
   --semi-bold-font-weight: 700;
