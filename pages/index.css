@@ -17,6 +17,9 @@
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+/* rotation */
+@import url(../blocks/rotation/rotation.css);
+
 /* description */
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);
