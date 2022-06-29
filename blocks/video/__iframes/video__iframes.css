@@ -1,0 +1,8 @@
+.video__iframes {
+  display: flex;
+  justify-content: center;
+}
+
+.video__iframes iframe:nth-child(2) {
+  margin-left: 20px;
+}
