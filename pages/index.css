@@ -25,6 +25,9 @@
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* cards */
+@import url(../blocks/cards/cards.css);
+
 /* digits */
 @import url(../blocks/digits/digits.css);
 
