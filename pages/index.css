@@ -28,6 +28,13 @@
 /* cards */
 @import url(../blocks/cards/cards.css);
 
+/* video */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__gray-decorative-block.css/video__gray-decorative-block.css);
+
+/* oakley */
+@import url(../blocks/oakley/oakley.css);
+
 /* digits */
 @import url(../blocks/digits/digits.css);
 
