@@ -3,6 +3,7 @@
 @import url(../blocks/root/root.css);
 
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_place/link_place_footer.css);
 
 /* header */
 @import url(../blocks/page/page.css);
@@ -71,6 +72,7 @@
 
 /* table */
 @import url(../blocks/table/table.css);
+@import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/table/__heading/table__heading.css);
@@ -87,6 +89,11 @@
 /* kaufman */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
+
+/* resources */
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 /* footer */
 @import url(../blocks/footer/footer.css);

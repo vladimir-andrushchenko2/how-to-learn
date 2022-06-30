@@ -2,10 +2,6 @@
   color: var(--accent-blue-transparent);
 }
 
-.link_place_footer:hover {
-  color: var(--off-white-color-transparent);
-}
-
 .link {
   transition: color 0.1s ease-in;
 }
