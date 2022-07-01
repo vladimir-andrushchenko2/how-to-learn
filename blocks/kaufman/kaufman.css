@@ -4,7 +4,6 @@
   overflow: hidden;
 }
 
-/* everything inside kafman needs to be foreground for triangle */
 .kaufman * {
   z-index: 1;
 }
