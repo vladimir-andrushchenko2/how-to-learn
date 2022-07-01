@@ -6,4 +6,5 @@
   background-color: var(--off-white-color);
   height: 890px;
   position: relative;
+  box-sizing: border-box;
 }
