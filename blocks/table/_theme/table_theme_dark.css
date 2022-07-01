@@ -1,5 +1,5 @@
 .table_theme_dark {
   background-color: var(--background-dark);
   color: var(--off-white-color);
-  padding-bottom: 90px;
+  margin-bottom: 90px;
 }

@@ -1,8 +1,9 @@
 .khan__buy-link {
   color: var(--accent-blue);
   text-decoration: none;
-  padding-left: 48px;
+  margin-left: 48px;
   line-height: 42px;
   font-size: 30px;
   font-weight: var(--normal-font-weight);
+  align-self: flex-start;
 }

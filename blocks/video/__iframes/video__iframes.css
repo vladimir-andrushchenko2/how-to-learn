@@ -1,7 +1,7 @@
 .video__iframes {
   display: flex;
   justify-content: center;
-  padding-top: 60px;
+  margin-top: 50px;
 }
 
 .video__iframes iframe:nth-child(2) {
