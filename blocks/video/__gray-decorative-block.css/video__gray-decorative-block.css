@@ -1,8 +1,0 @@
-.video__gray-decorative-block {
-  height: 60px;
-  width: 100%;
-  background-color: var(--off-white-color);
-  position: absolute;
-  bottom: 0;
-  z-index: -1;
-}
