@@ -5,7 +5,3 @@
   list-style: none;
   padding: 0;
 }
-
-.video__iframes li:nth-child(2) {
-  margin-left: 20px;
-}
